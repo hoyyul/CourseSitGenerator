@@ -1,0 +1,63 @@
+
+{
+    "subject":"AMS",
+    "number":"301",
+    "year":"2018",
+    "semester":"Fall",
+    "title":"AMS III",
+    "logos":{
+        "favicon":{
+            "href":"./images/SBUShieldFavicon.ico"
+        },
+        "navbar":{
+            "href":"http://www.stonybrook.edu",
+            "src":"./images/OfficeHoursWebBanner.png"
+        },
+        "bottom_left":{
+            "href":"http://www.stonybrook.edu",
+            "src":"./images/SBUWhiteShieldLogo.jpg"
+        },
+        "bottom_right":{
+            "href":"http://www.stonybrook.edu",
+            "src":"./images/SBUCSLogo.png"
+        }
+    },
+    "instructor":{
+        "name":"Richard McKenna",
+        "link":"http://www.cs.stonybrook.edu/~richard",
+        "email":"richard@cs.stonybrook.edu",
+        "room":"New CS 216",
+        "hours":[
+            {
+                "day":"Tuesday",
+                "time":"1:00pm-2:20pm"
+            },
+            {
+                "day":"Wednesday",
+                "time":"2pm-3pm"
+            },
+            {
+                "day":"Thursday",
+                "time":"1:00pm-2:20pm"
+            }
+        ]
+    },
+    "pages":[
+        {
+            "name":"Home",
+            "link":"index.html"
+        },
+        {
+            "name":"Syllabus",
+            "link":"syllabus.html"
+        },
+        {
+            "name":"Schedule",
+            "link":"schedule.html"
+        },
+        {
+            "name":"HWs",
+            "link":"hws.html"
+        }
+    ]
+}

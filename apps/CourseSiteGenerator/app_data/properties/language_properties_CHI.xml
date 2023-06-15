@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This XML file provides all the text to be used when the application
+    is to be displayed in English.
+-->
+<properties>
+    <property_list>
+
+        <!-- ENGLISH LANGUAGE SETTINGS FOR DESKTOP JAVA FRAMEWORK CONTROLS -->
+
+        <!-- WELCOME DIALOG TEXT -->
+        <property name="WELCOME_DIALOG_TITLE"               value="欢迎来到课程网页生成器"></property>
+        <property name="WELCOME_DIALOG_RECENT_WORK_LABEL"   value="最近项目"></property>
+        <property name="WELCOME_DIALOG_NEW_BUTTON_TEXT"  value="生成课程网页生成器"></property>
+
+        <!-- GENERIC APP ERROR MESSAGES -->
+        <property name="APP_ERROR_TITLE"            value="应用错误"></property>
+        <property name="APP_ERROR_CONTENT"          value="应用中有一个错误"></property>
+        <property name="FILE_ERROR_TITLE"            value="文件格式错误"></property>
+        <property name="FILE_LACK_ERROR_CONTENT"          value="您的文件缺少一些元素"></property>
+        <property name="FILE_FORMAT_ERROR_CONTENT"          value="您的文件格式不对"></property>
+        <!-- PROPERTIES ERROR MESSAGES -->
+        <property name="PROPERTIES_ERROR_TITLE"     value="值文件错误"></property>
+        <property name="PROPERTIES_ERROR_CONTENT"   value="值文件读取了一个错误"></property>
+
+        <!-- FILE TOOLBAR TOOLTIPS -->
+        <property name="NEW_BUTTON_TOOLTIP"         value="新课程网页生成器"></property>
+        <property name="LOAD_BUTTON_TOOLTIP"        value="载入课程网页生成器"></property>
+        <property name="CLOSE_BUTTON_TOOLTIP"       value="关闭课程网页生成器"></property>
+        <property name="SAVE_BUTTON_TOOLTIP"        value="保存课程网页生成器"></property>
+        <property name="EXPORT_BUTTON_TOOLTIP"      value="导出课程网页生成器"></property>
+        <property name="EXIT_BUTTON_TOOLTIP"        value="退出"></property>
+
+        <!-- CLIPBOARD TOOLBAR TOOLTIPS -->
+        <property name="CUT_BUTTON_TOOLTIP"         value="剪切"></property>
+        <property name="COPY_BUTTON_TOOLTIP"        value="复制"></property>
+        <property name="PASTE_BUTTON_TOOLTIP"       value="粘贴"></property>
+
+        <!-- UNDO TOOLBAR TOOLTIPS -->
+        <property name="UNDO_BUTTON_TOOLTIP"        value="撤回"></property>
+        <property name="REDO_BUTTON_TOOLTIP"        value="重做"></property>
+
+        <!-- HELP TOOLBAR TOOLTIPS -->
+        <property name="HELP_BUTTON_TOOLTIP"        value="帮助"></property>
+        <property name="LANGUAGE_BUTTON_TOOLTIP"    value="切换语言"></property>
+        <property name="ABOUT_BUTTON_TOOLTIP"       value="关于"></property>
+
+        <!-- NEW FEEDBACK DIALOGS -->	
+        <property name="NEW_SUCCESS_TITLE"      value="新完成"></property>
+        <property name="NEW_SUCCESS_CONTENT"	value="工作生成但未保存"></property>
+        <property name="NEW_ERROR_TITLE"        value="警报：错误"></property>
+        <property name="NEW_ERROR_CONTENT"      value="新项目中存在一个错误。"></property>
+
+        <!-- LOAD FEEDBACK DIALOGS -->
+        <property name="LOAD_WORK_TITLE"        value="载入项目"></property>
+        <property name="LOAD_SUCCESS_TITLE"     value="载入完成"></property>
+        <property name="LOAD_SUCCESS_CONTENT"   value="文件载入成功且可以编辑"></property>
+        <property name="LOAD_ERROR_TITLE"       value="载入错误"></property>        
+        <property name="LOAD_ERROR_CONTENT"     value="载入失败。文件格式不符"></property>
+
+        <!-- SAVE FEEDBACK DIALOGS -->
+        <property name="SAVE_WORK_TITLE"        value="保存工作"></property>
+        <property name="SAVE_SUCCESS_TITLE"     value="保存完成"></property>
+        <property name="SAVE_SUCCESS_CONTENT"   value="文件被保存"></property>
+        <property name="SAVE_ERROR_TITLE"       value="保存错误"></property>
+        <property name="SAVE_ERROR_CONTENT"     value="保存失败。文件不可涉及"></property>
+        <property name="SAVE_VERIFY_TITLE"	value="保存未保存项目么？"></property>
+        <property name="SAVE_VERIFY_CONTENT"	value="您需要先保存未保存的项目么"></property>
+
+        <!-- ABOUT DIALOG -->
+        <property name="ABOUT_TITLE"            value="关于CSG"></property>
+        <property name="ABOUT_CONTENT"          value="CSG, 课程生成器管理 - 啦啦 - © 2018"></property>
+
+
+        <!-- ENGLISH LANGUAGE SETTINGS SPECIFICALLY FOR TDLM CONTROLS -->
+
+        <!-- LANGUAGE-DEPENDENT TEXT FOR OH WORKSPACE CONTROLS -->
+        
+        <property name="CSG_BANNER_LABEL_TEXT"           value="标语"></property>
+        <property name="CSG_SUBJECT_LABEL_TEXT"          value="科目:"></property>
+        <property name="CSG_SEMESTER_LABEL_TEXT"         value="学期:"></property>
+        <property name="CSG_TITLE_LABEL_TEXT"            value="标题:"></property>
+        <property name="CSG_EXPORT_LABEL1_TEXT"           value="导出目录:    "></property>
+        <property name="CSG_EXPORT_LABEL2_TEXT"           value=".\export\"></property>
+        <property name="CSG_EXPORT_LABEL3_TEXT"           value="\index_html"></property>
+        <property name="CSG_NUMBER_LABEL_TEXT"           value="数字:"></property>
+        <property name="CSG_YEAR_LABEL_TEXT"             value="年份:"></property>
+        
+        
+        <property name="CSG_PAGE_BOX_LABEL_TEXT"           value="页面"></property>
+       
+        <property name="CSG_PAGE_HOME_LABEL_TEXT"           value="主页"></property>
+        <property name="CSG_PAGE_SYLLABUS_LABEL_TEXT"           value="提纲"></property>
+        <property name="CSG_PAGE_SCHEDULE_LABEL_TEXT"           value="日程"></property>
+        <property name="CSG_PAGE_HWS_LABEL_TEXT"           value="作业"></property>
+        
+        <property name="CSG_STYLE_LABEL_TEXT"           value="风格"></property>
+        <property name="CSG_FAVICON_TEXTBUTTON_TEXT"           value="网站图标："></property>
+        <property name="CSG_NAVBAR_TEXTBUTTON_TEXT"           value="导航图片："></property>
+        <property name="CSG_LEFT_TEXTBUTTON_TEXT"           value="左页脚图片："></property>
+        <property name="CSG_RIGHT_TEXTBUTTON_TEXT"           value="右页脚图片："></property>
+        
+        <property name="CSG_CHANGE_STYLE_LABEL_TEXT"           value="字体和风格："></property>
+        <property name="CSG_STYLE_HINT_LABEL_TEXT"           value="嗷嗷"></property>
+        
+        
+        <property name="CSG_INSTRUCTOR_LABEL_TEXT"           value="导师"></property>
+        <property name="CSG_INSTRUCTOR_NAME_LABEL_TEXT"           value="名字："></property>
+        <property name="CSG_INSTRUCTOR_EMAIL_LABEL_TEXT"           value="邮箱："></property>
+        <property name="CSG_INSTRUCTOR_ROOM_LABEL_TEXT"           value="房间："></property>
+        <property name="CSG_INSTRUCTOR_HOMEPAGE_LABEL_TEXT"           value="网页地址："></property>
+        <property name="CSG_INSTRUCTOR_OFFICEHOUR_LABEL_TEXT"           value="办公时间"></property>
+        <property name="CSG_TITLE_TEXTFIELD_PROMPT_TEXT"           value="标题"></property>
+        <property name="CSG_NAME_TEXTFIELD_PROMPT_TEXT"           value="名字"></property>
+        <property name="CSG_ROOM_TEXTFIELD_PROMPT_TEXT"           value="房间"></property>
+        <property name="CSG_EMAIL_TEXTFIELD_PROMPT_TEXT"           value="邮件"></property>
+        <property name="CSG_HOMEPAGE_TEXTFIELD_PROMPT_TEXT"           value="网页地址"></property>
+        <property name="CSG_NAME_TEXT_FIELD_PROMPT_TEXT"           value="名字"></property>
+        <property name="CSG_EMAIL_TEXT_FIELD_PROMPT_TEXT"           value="邮箱"></property>
+        <property name="CSG_SCHEDULE_TITLE_TEXTFIELD_PROMPT_TEXT"           value="标题"></property>
+        <property name="CSG_SCHEDULE_TOPIC_TEXTFIELD_PROMPT_TEXT"           value="话题"></property>
+        <property name="CSG_SCHEDULE_LINK_TEXTFIELD_PROMPT_TEXT"           value="链接"></property>
+        
+        <property name="CSG_DESCRIPTION_LABEL_TEXT"           value="描述："></property>
+        <property name="CSG_TOPICS_LABEL_TEXT"           value="话题关于："></property>
+        <property name="CSG_PREREQUISITES_LABEL_TEXT"           value="前置条件"></property>
+        <property name="CSG_OUTCOMES_LABEL_TEXT"           value="教学期望："></property>
+        <property name="CSG_TEXTBOOKS_LABEL_TEXT"           value="教材"></property>
+        <property name="CSG_GRADED_COMPONENTS_LABEL_TEXT"           value="评分组成"></property>
+        <property name="CSG_GRADING_NOTE_LABEL_TEXT"           value="评分关于"></property>
+        <property name="CSG_ACADEMIC_DISHONESTY_LABEL_TEXT"           value="学术诚信"></property>
+        <property name="CSG_SPECIAL_ASSISTANCE_LABEL_TEXT"           value="特殊帮助"></property>
+        <property name="CSG_TA_LABEL_TEXT"           value="助教"></property>
+        <property name="CSG_OFFICEHOUR_LABEL_TEXT"           value="办公时间"></property>
+        
+        
+        
+        <property name="CSG_ADD_TA_BUTTON_TEXT"              value="添加助教"></property>
+        
+        <property name="CSG_NAME_TABLE_COLUMN_TEXT"          value="名字"></property>
+        <property name="CSG_EMAIL_TABLE_COLUMN_TEXT"         value="邮箱"></property>
+        <property name="CSG_SLOTS_TABLE_COLUMN_TEXT"         value="时间段"></property>
+        <property name="CSG_TYPE_TABLE_COLUMN_TEXT"         value="类型"></property>
+        <property name="CSG_START_TIME_TABLE_COLUMN_TEXT"    value="开始时间"></property>
+        <property name="CSG_END_TIME_TABLE_COLUMN_TEXT"      value="结束时间"></property>
+        <property name="CSG_MONDAY_TABLE_COLUMN_TEXT"        value="星期一"></property>
+        <property name="CSG_TUESDAY_TABLE_COLUMN_TEXT"       value="星期二"></property>
+        <property name="CSG_WEDNESDAY_TABLE_COLUMN_TEXT"     value="星期三"></property>
+        <property name="CSG_THURSDAY_TABLE_COLUMN_TEXT"      value="星期四"></property>
+        <property name="CSG_FRIDAY_TABLE_COLUMN_TEXT"        value="星期五"></property>
+        
+        <property name="CSG_LECTURE_SECTION_TABLE_COLUMN_TEXT"       value="班级"></property>
+        <property name="CSG_LECTURE_DAYS_TABLE_COLUMN_TEXT"     value="上课日"></property>
+        <property name="CSG_LECTURE_TIME_TABLE_COLUMN_TEXT"      value="时间"></property>
+        <property name="CSG_LECTURE_ROOM_TABLE_COLUMN_TEXT"        value="教师"></property>
+        
+        <property name="CSG_RECITATION_SECTION_TABLE_COLUMN_TEXT"       value="班级"></property>
+        <property name="CSG_RECITATION_DAYS_TIME_TABLE_COLUMN_TEXT"     value="上课日&amp;时间"></property>
+        <property name="CSG_RECITATION_ROOM_TABLE_COLUMN_TEXT"        value="房间"></property>
+        <property name="CSG_RECITATION_TA1_COLUMN_TEXT"      value="助教1"></property>
+        <property name="CSG_RECITATION_TA2_COLUMN_TEXT"        value="助教2"></property>
+        
+        <property name="CSG_LAB_SECTION_TABLE_COLUMN_TEXT"       value="班级"></property>
+        <property name="CSG_LAB_DAYS_TIME_TABLE_COLUMN_TEXT"     value="上课日&amp;时间"></property>
+        <property name="CSG_LAB_ROOM_TABLE_COLUMN_TEXT"        value="房间"></property>
+        <property name="CSG_LAB_TA1_COLUMN_TEXT"      value="助教1"></property>
+        <property name="CSG_LAB_TA2_COLUMN_TEXT"        value="助教2"></property>
+        
+        <property name="CSG_ALL_RADIO_BUTTON_TEXT"                value="全部"></property>
+        <property name="CSG_GRAD_RADIO_BUTTON_TEXT"               value="研究生"></property>
+        <property name="CSG_UNDERGRAD_RADIO_BUTTON_TEXT"          value="本科"></property>
+        <property name="CSG_TA_DIALOG_NAME_LABEL_TEXT" value="名字："></property>
+        <property name="CSG_TA_DIALOG_EMAIL_LABEL_TEXT" value="邮箱："></property>
+        <property name="CSG_TA_DIALOG_GRAD_RADIO_BUTTON_TEXT" value="研究生"></property>
+        <property name="CSG_TA_DIALOG_UNDERGRAD_RADIO_BUTTON_TEXT" value="本科"></property>
+        <property name="CSG_TA_DIALOG_OK_BUTTON_TEXT" value="确定"></property>
+        <property name="CSG_TA_DIALOG_CANCEL_BUTTON_TEXT" value="取消"></property>
+        <property name="CSG_TA_DIALOG_HEADER_LABEL_TEXT" value="编辑助教"></property>
+        <property name="CSG_TA_DIALOG_NAME_LABEL_TEXT" value="名字："></property>
+        <property name="CSG_TA_DIALOG_EMAIL_LABEL_TEXT" value="邮箱："></property>
+        <property name="CSG_TA_DIALOG_TYPE_LABEL_TEXT" value="类型："></property>
+        
+        <property name="CSG_START_TIME_LABEL_TEXT" value="开始时间"></property>
+        <property name="CSG_END_TIME_LABEL_TEXT" value="结束时间"></property>
+        
+        <property name="CSG_LECTURE_HEADER_LABLE_TEXT" value="讲座"></property>
+        <property name="CSG_RECITATION_HEADER_LABLE_TEXT" value="讨论"></property>
+        <property name="CSG_LAB_HEADER_LABLE_TEXT" value="实验"></property>
+        
+        <property name="CSG_BOUNDARY_LABEL_TEXT" value="日历"></property>
+        <property name="CSG_BOUNDARY_START_TIME_LABEL_TEXT" value="开始星期一"></property>
+        <property name="CSG_BOUNDARY_END_TIME_LABEL_TEXT" value="结束星期五"></property>
+        
+        <property name="CSG_SCHEDULE_ITEMS_HEARDER_LABEL_TEXT" value="日程内容"></property>
+        <property name="CSG_SCHEDULE_TYPE_TABLE_COLUMN_TEXT"       value="类型"></property>
+        <property name="CSG_SCHEDULE_DATE_TABLE_COLUMN_TEXT"     value="日期"></property>
+        <property name="CSG_SCHEDULE_TITLE_TABLE_COLUMN_TEXT"      value="标题"></property>
+        <property name="CSG_SCHEDULE_TOPIC_TABLE_COLUMN_TEXT"        value="关于"></property>
+        
+        <property name="CSG_SCHEDULE_EDIT_LABEL_TEXT"        value="添加／编辑"></property>
+        <property name="CSG_SCHEDULE_TYPE_LABEL_TEXT"        value="类型："></property>
+        <property name="CSG_SCHEDULE_DATE_LABEL_TEXT"        value="日期："></property>
+        <property name="CSG_SCHEDULE_TITLE_LABEL_TEXT"        value="标题："></property>
+        <property name="CSG_SCHEDULE_TOPIC_LABEL_TEXT"        value="关于："></property>
+        <property name="CSG_SCHEDULE_LINK_LABEL_TEXT"        value="链接："></property>
+        <property name="CSG_ADD_EDIT_SCHEDULE_BUTTON_TEXT"                value="添加／更新"></property>
+        <property name="CSG_CLEAN_SCHEDULE_BUTTON_TEXT"                value="清理"></property>
+        
+        
+        <property name="CSG_SITE_TAB_TEXT"        value="网页"></property>
+        <property name="CSG_SYLLABUS_TAB_TEXT"        value="提纲"></property>
+        <property name="CSG_SECTIONS_TAB_TEXT"        value="见面时间"></property>
+        <property name="CSG_OFFICE_HOURS_TAB_TEXT"                value="办公时间"></property>
+        <property name="CSG_SCHEDULE_TAB_TEXT"                value="日程"></property>
+        
+        <!-- TO SWITCH BACK TO ANOTHER LANGUAGE -->
+        <property name="LANGUAGE_DIALOG_TITLE"          value="应用语言选项"></property>
+        <property name="LANGUAGE_DIALOG_HEADER_TEXT"    value="选择一个语言"></property>
+        <property name="LANGUAGE_DIALOG_CONTENT_TEXT"   value="为交互界面选择一个语言"></property>
+
+        <property name="WORK_FILE_EXT"          value="*.json"></property>
+	<property name="WORK_FILE_EXT_DESC"     value="Course Site Generator Files"></property>
+
+    </property_list>
+    
+    <property_options_list>
+        <property_options name="LANGUAGE_OPTIONS">
+            <option>English</option>
+            <option>Chinese</option>
+        </property_options>
+        <property_options name="SUBJECT_OPTIONS">
+            <option>CSE</option>
+            <option>AMS</option>
+        </property_options>
+        <property_options name="NUMBER_OPTIONS">
+            <option>219</option>
+            <option>220</option>
+        </property_options>
+        <property_options name="SEMESTER_OPTIONS">
+            <option>Spring</option>
+            <option>Summer</option>
+            <option>Fall</option>
+            <option>Winter</option>
+        </property_options>
+        <property_options name="YEAR_OPTIONS">
+            <option></option>
+        </property_options>
+        <property_options name="CSS_OPTIONS">
+            <option>sea_wolf.css</option>
+            <option>halloween.css</option>
+        </property_options>
+         <property_options name="CSG_START_TIME_OPTIONS">
+            <option>8:00am</option>
+            <option>9:00am</option>
+            <option>10:00am</option>
+            <option>11:00am</option>
+            <option>12:00pm</option>
+            <option>1:00pm</option>
+            <option>2:00pm</option>
+            <option>3:00pm</option>
+            <option>4:00pm</option>
+            <option>5:00pm</option>
+            <option>6:00pm</option>
+            <option>7:00pm</option>
+            <option>8:00pm</option>
+            <option>9:00pm</option>
+            <option>10:00pm</option>
+            <option>11:00pm</option>
+        </property_options>
+        <property_options name="CSG_END_TIME_OPTIONS">
+            <option>8:00am</option>
+            <option>9:00am</option>
+            <option>10:00am</option>
+            <option>11:00am</option>
+            <option>12:00pm</option>
+            <option>1:00pm</option>
+            <option>2:00pm</option>
+            <option>3:00pm</option>
+            <option>4:00pm</option>
+            <option>5:00pm</option>
+            <option>6:00pm</option>
+            <option>7:00pm</option>
+            <option>8:00pm</option>
+            <option>9:00pm</option>
+            <option>10:00pm</option>
+            <option>11:00pm</option>
+        </property_options>
+        <property_options name="CSG_BOUNDARY_START_TIME_OPTIONS">
+            <option></option>
+
+        </property_options>
+        <property_options name="CSG_BOUNDARY_END_TIME_OPTIONS">
+            <option></option>
+
+        </property_options>
+        <property_options name="CSG_SCHEDULE_TYPE_OPTIONS">
+            <option>Options</option>
+            <option>Holiday</option>
+            <option>Lecture</option>
+            <option>HW</option>
+            <option>Reference</option>
+            <option>Recitation</option>
+        </property_options>
+        <property_options name="CSG_SCHEDULE_DATE_OPTIONS">
+            <option></option>
+
+        </property_options>
+    </property_options_list>
+</properties>

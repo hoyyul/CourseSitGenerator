@@ -1,0 +1,291 @@
+
+.root{
+    /* 
+        FIRST WE'LL DEFINE OUR SWATCHES, i.e. THE COMPLEMENTARY
+        COLORS THAT WE'LL USE TOGETHER IN MULTIPLE PLACES THAT
+        TOGETHER WILL MAKE UP A GIVEN THEME
+    */
+    
+    /*  THE NEURAL SWATCH IS USED FOR THE BACKGROUNDS IN PLACES WHERE
+        THERE ARE NO OTHER CONTROLS*/
+    SWATCH_NEUTRAL:             white;
+    /*  THE COMPLEMENT SWATCH IS USED FOR BACKGROUND AREAS OF THINGS
+        LAYERED ON TOP OF THE BACKGROUND */
+    SWATCH_COMPLEMENT:          #9a46a6;
+    /*  THE ACCENT SWATCH IS USED FOR BORDERS OF THINGS LIKE TOOLBAR
+        THAT ARE USED FOR ORGANIZING GROUPS OF COMPONENTS */
+    SWATCH_ACCENT:              #812990;
+    SWATCH_ACCENT_ALT:          #4E7C98;
+    /*  THIS BLEND SWATCH IS USED FOR GRADIENT TRANSITIONS */
+    SWATCH_BLEND:               white;
+    
+    -fx-font-family: "Roboto";
+}
+
+/* FIRST WE HAVE THE CONTROLS THAT THE DESKTOP JAVA FRAMEWORK USES */
+
+/* THE TOOLBAR RUNNING THE LENGTH OF THE TOP OF THE UI */
+.djf_top_toolbar {
+    -fx-background-color:   SWATCH_NEUTRAL;
+    -fx-border-color:       SWATCH_ACCENT;
+    -fx-border-width:       2;
+    -fx-border-radius:      15;
+}
+/* A TOOLBAR IN THE TOP TOOLBAR LIKELY WITH BUTTONS */
+.djf_toolbar_pane {
+    -fx-background-color:   SWATCH_COMPLEMENT;
+    -fx-border-color:       SWATCH_ACCENT;
+    -fx-border-width:       2;
+    -fx-border-radius:      15;
+    -fx-background-radius: 15;
+}
+/* A BUTTON WITH AN ICON PUT IN A TOP TOOLBAR */
+.djf_icon_button {
+    -fx-background-color:   transparent;
+    -fx-padding:            0;
+}
+.djf_icon_button:hover {
+    -fx-background-color: linear-gradient(SWATCH_COMPLEMENT, SWATCH_BLEND);    
+}
+.djf_welcome_banner {
+    -fx-border-color:transparent;
+    -fx-border-width:10;
+}
+.djf_welcome_header {
+    -fx-font-size: 32pt;
+    -fx-background-color: transparent;
+}
+.djf_welcome_recent_pane {
+    -fx-padding: 20 20 20 20;
+    -fx-background-color:transparent;
+}
+.djf_welcome_recent_button {
+    -fx-font-size: 14pt;
+    -fx-underline: true;
+    -fx-text-fill: SWATCH_ACCENT;
+    -fx-background-color:transparent;
+}
+.djf_welcome_recent_button:hover {
+    -fx-text-fill: SWATCH_ACCENT_ALT;
+}
+.djf_welcome_recent_button:pressed {
+    -fx-text-fill: SWATCH_NEUTRAL;
+}
+.djf_welcome_new_pane {
+    -fx-background-color:transparent;
+}
+.djf_welcome_new_button {
+    -fx-font-size:20pt;
+    -fx-background-color:transparent;
+    -fx-border-width:2px;
+    -fx-border-color:black;
+    -fx-border-radius:15px;
+}
+.djf_welcome_new_button:hover{
+    -fx-background-color: SWATCH_COMPLEMENT;
+}
+.djf-welcome_new_button:pressed{
+    -fx-background-color: SWATCH_NEUTRAL;
+}
+
+.csg_pane_tab:selected{
+    -fx-background-color: #9a46a6;
+    
+}
+
+.csg_pane_tab:selected .tab-label { 
+    -fx-alignment: CENTER;
+
+}
+
+.csg_pane_tab:selected .focus-indicator {
+    -fx-focus-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.csg_pane_tab .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: whitesmoke;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+.csg_pane_tab { 
+    -fx-background-color:#812990;
+    
+}
+.csg_tab_pane{
+    -fx-padding: -1 -1 -1 -1;
+    -fx-background-color:transparent;
+    
+}
+.csg_tab_pane .tab-header-area .tab-header-background {
+    -fx-background-color: white;
+}
+
+.csg_pane{
+   -fx-background-color: whitesmoke; 
+   -fx-border-color: #a051a2; 
+   -fx-background-radius: 10;
+   -fx-border-radius: 10;
+   -fx-border-insets:5.0 0.0 0.0 10.0;
+   -fx-background-insets: 5.0 0.0 0.0 10.0;
+   -fx-padding: 15;
+ 
+   
+   
+}
+
+.csg_site_title_label{
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #812990;
+}
+.csg_site_label{
+    -fx-text-fill: #a051a2;
+    -fx-font-weight: bold;
+}
+
+.csg_combobox .list-cell 
+{
+    -fx-background: white;
+    -fx-background-color: transparent;
+    -fx-text-fill: #a051a2;
+    -fx-padding: 3 0 2 7;
+    -fx-cell-size: 1.66667em; 
+}
+
+.combo-box-base:focused {
+    -fx-background-color: #a051a2, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-radius: 6.4, 4, 5, 3;
+    -fx-background-insets: -1.4, 0, 1, 2;
+}
+
+.csg_icon_button {
+    
+    -fx-background-color: transparent;
+    -fx-background-radius: 300, 300, 300, 300;
+}
+
+.csg_text_field:focused{
+    -fx-focus-color: #a051a2;
+    -fx-faint-focus-color:#a051a222;
+}
+
+.csg_text_area:focused{
+    -fx-focus-color: #a051a2;
+    -fx-faint-focus-color:#a051a222;
+}
+.csg_centered_column {
+    -fx-alignment: CENTER;
+}
+
+.csg_table_view:focused{
+    -fx-focus-color: #a051a2;
+    -fx-faint-focus-color:#a051a222;
+}
+
+.csg_time_column {
+    
+    -fx-font-size:          12pt;   
+    -fx-font-weight:        bold;
+    -fx-padding:            10 20 10 20;
+}
+.csg_day_of_week_column {
+    -fx-font-size:          12pt;   
+    -fx-font-weight:        bold;
+    -fx-padding:            10 20 10 20;
+}
+
+.csg_text_field_error {
+    -fx-text-fill: red;
+    
+}
+.csg_text_field_error:focused {
+    -fx-focus-color: #a051a2;
+    -fx-faint-focus-color:#a051a222;
+    
+}
+
+.csg_dialog_grid_pane{
+    -fx-background-color: transparent;
+    -fx-background-radius: 5.0;
+    -fx-background-insets: 10.0 10.0 10.0 10.0;
+    -fx-padding: 20;
+    -fx-hgap: 30;
+    -fx-vgap: 30;
+}
+
+.csg_dialog_header{
+    -fx-font-weight: bold;
+    -fx-font-size: 18pt
+}
+.csg_dialog_prompt{
+    -fx-font-weight: bold;
+    -fx-font-size: 14pt;
+}
+.csg_dialog_text_field{
+    -fx-min-width:450px;
+    -fx-max-width:450px;
+    -fx-min-height:50px;
+    -fx-max-height:50px;
+    -fx-font-weight:bold;
+    -fx-font-size:14pt;
+}
+.csg_dialog_radio_button{
+    -fx-font-size: 14pt;
+    -fx-font-weight: bold;
+}
+.csg_dialog_box{
+    
+}
+.csg_dialog_button{
+    -fx-min-width:100px;
+    -fx-max-width:100px;
+    -fx-min-height:50px;
+    -fx-max-height:50px;
+    -fx-font-weight: bold;
+    -fx-font-size: 16pt;
+}
+
+.tooltip {
+    -fx-font-size:14pt;
+    -fx-font-weight:bold;
+    -fx-background-radius: 50 50 50 50;
+    -fx-background-color:SWATCH_ACCENT;
+}
+
+.csg_radio_box {
+    -fx-padding: 0 0 0 180;
+}
+.csg_radio_button {
+    -fx-padding: 0 0 0 30;
+    -fx-font-size: 14pt;
+    -fx-font-weight: bold;
+    
+}
+
+.csg_radio_button:focused{
+    -fx-focus-color: #a051a2;
+    -fx-faint-focus-color:#a051a222;
+}
+
+.csg_dialog_text_field:focused{
+    -fx-focus-color: #a051a2;
+    -fx-faint-focus-color:#a051a222;
+}
+
+.csg_dialog_button:focused{
+    -fx-focus-color: #a051a2;
+    -fx-faint-focus-color:#a051a222;
+}
+
+.csg_dialog_radio_button:focused{
+    -fx-focus-color: #a051a2;
+    -fx-faint-focus-color:#a051a222;
+}
+
+
+.table-row-cell:empty .table-cell {
+    -fx-border-width:0px;         
+}
+

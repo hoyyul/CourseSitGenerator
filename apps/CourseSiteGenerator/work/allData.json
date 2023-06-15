@@ -1,0 +1,1702 @@
+
+[
+    {
+        "subject":"CSE",
+        "number":"219",
+        "year":"2020",
+        "semester":"Spring",
+        "title":"computer science ",
+        "logos":{
+            "favicon":{
+                "href":"./images/nogizakaL.png"
+            },
+            "navbar":{
+                "href":"http://www.stonybrook.edu",
+                "src":"./images/nogizakaL.png"
+            },
+            "bottom_left":{
+                "href":"http://www.stonybrook.edu",
+                "src":"./images/nogizakaL.png"
+            },
+            "bottom_right":{
+                "href":"http://www.stonybrook.edu",
+                "src":"./images/nogizakaL.png"
+            }
+        },
+        "instructor":{
+            "name":"Richard McKenna",
+            "link":"http://www.cs.stonybrook.edu/~richard",
+            "email":"richard@cs.stonybrook.edu",
+            "room":"New CS 219",
+            "hours":[
+                {
+                    "day":"Tuesday",
+                    "time":"1:00pm-2:20pm"
+                },
+                {
+                    "day":"Wednesday",
+                    "time":"2pm-3pm"
+                },
+                {
+                    "day":"Thursday",
+                    "time":"1:00pm-2:20pm"
+                }
+            ]
+        },
+        "pages":[
+            {
+                "name":"Home",
+                "link":"index.html"
+            },
+            {
+                "name":"Syllabus",
+                "link":"syllabus.html"
+            },
+            {
+                "name":"Schedule",
+                "link":"schedule.html"
+            },
+            {
+                "name":"HWs",
+                "link":"hws.html"
+            }
+        ]
+    },
+    {
+        "description":"Development of the basic concepts and techniques from Computer Science I and II into practical programming skills that include a systematic approach to program design, coding, testing, and debugging. Application of these skills to the construction of robust programs of thousands of lines of source code. Use of programming environments and tools to aid in the software development process. adsfasdfasdf",
+        "topics":[
+            "Programming style and its impact on readability, reliability, maintainability, and portability.",
+            "Decomposing problems into modular designs with simple, narrow interfaces.",
+            "Determining the proper objects in an object-oriented design.",
+            "Selecting appropriate algorithms and data structures.",
+            "Reusing code, including external libraries designed and built by others.",
+            "Learning systematic testing and debugging techniques.",
+            "Maintaining a repository of code during incremental development of a software project.",
+            "Learning how to use threads to synchronize several tasks.",
+            "Improving program performance.",
+            "Making effective use of a programming environment, including:<br /><ul><li>Syntax-directed editor</li><li>Build tools</li><li>Debugging tools</li><li>Testing tools</li><li>Source code management tools</li><li>Profiling tools</li></ul>"
+        ],
+        "prerequisites":"You must have taken CSE 214 and received a grade of 'C' or better in order to take this course. In more detail, you are expected to have the following knowledge and skills at the beginning of the course:<br /><ul><li>Ability to write programs of a few hundred lines of code in the Java programming language.</li><li>Understanding of fundamental data structures, including lists, binary trees, hash tables, and graphs, and the ability to employ these data structures in the form provided by the standard Java API.</li><li>Ability to construct simple command-based user interfaces, and to use files for the input and output of data.</li><li>Mastery of basic mathematical and geometric reasoning using pre-calculus concepts.</li></ul>",
+        "outcomes":[
+            "Ability to systematically design, code, debug, and test programs of about two thousand lines of code.",
+            "Sensitivity to the issues of programming style and modularity and their relationship to the construction and evolution of robust software.",
+            "Knowledge of basic ideas and techniques of object-oriented programming.",
+            "Familiarity with the capabilities and use of programming tools such as syntax-directed editors, debuggers, execution profilers, documentation generators, and revison-control systems."
+        ],
+        "textbooks":[
+            {
+                "title":"Head First Object Oriented Analysis and Design",
+                "link":"http://proquestcombo.safaribooksonline.com.proxy.library.stonybrook.edu/0596008678",
+                "photo":"./images/HeadFirstOOAAD.jpg",
+                "authors":[
+                    "Brett McLaughlin",
+                    "Gary Pollice",
+                    "David West"
+                ],
+                "publisher":"O'Reilly Media, Inc.",
+                "year":"2006"
+            },
+            {
+                "title":"Head First Design Patterns",
+                "link":"http://proquestcombo.safaribooksonline.com.proxy.library.stonybrook.edu/0596007124",
+                "photo":"./images/HeadFirstDesignPatterns.gif",
+                "authors":[
+                    "Eric T Freeman",
+                    "Elisabeth Robson",
+                    "Bert Bates",
+                    "Kathy Sierra"
+                ],
+                "publisher":"O'Reilly Media, Inc.",
+                "year":"2004"
+            }
+        ],
+        "gradedComponents":[
+            {
+                "name":"Recitations",
+                "description":"Students will attend weekly recitations that will introduce use of essential development tools and will require completion of an exercise for submission.",
+                "weight":"10"
+            },
+            {
+                "name":"Homework Assignments",
+                "description":"The assignments will develop a students ability to design and implement object-oriented systems. Grading will be based on functionality and proper use specific tools. Submitted code that does not compile will receive no credit. Late submissions will NOT be accepted. Programming assignments will be handed in electronically, instructions for which will be provided early in the semester.",
+                "weight":"20"
+            },
+            {
+                "name":"Final Project",
+                "description":"The assignments will build to the final project, which will be a fully functioning application.",
+                "weight":"20"
+            },
+            {
+                "name":"Midterm Exam",
+                "description":"The midterm will cover all lecture, quizzes, and homework materials covered during the first 1/2 of the semester.",
+                "weight":"20"
+            },
+            {
+                "name":"Final Exam",
+                "description":"The final will be cumulative and will cover all lecture, reading, and homework material.",
+                "weight":"30"
+            }
+        ],
+        "gradingNote":"<strong>Note CEAS Policy:</strong> The Pass/No Credit (P/NC) option is not available for this course.",
+        "academicDishonesty":"You may <em>discuss</em> the homework in this course with anyone you like, however each student's submissionmust be ones own work.<br /><br />The College of Engineering and Applied Sciences regards academic dishonesty as a very serious matter, and provides for substantial penalties in such cases. For more information, obtain a copy of the CEAS guidelines on academic dishonesty from the CEAS office.<br /><br /><strong>Be advised that any evidence of academic dishonesty will be treated with utmost seriousness. If you have a situation that may tempt you into doing something academically dishonest, resist the urge and speak with your instructor during office hours for help.</strong><br /><br />",
+        "specialAssistance":"If you have a physical, psychological, medical or learning disability that may impact on your ability to carry out assigned course work, I would urge that you contact the staff at the <a href='https://www.stonybrook.edu/dss/'>Student Accessibility Support Center</a> (SASC) in the ECC building, 632-6748. SASC will review your concerns and determine with you what accommodations are necessary and appropriate. All information and documentation of disability are confidential.<br /><br /><br /><br />"
+    },
+    {
+        "lectures":[
+            {
+                "section":"L01",
+                "days":"Tuesdays & Thursdays",
+                "time":"10:00am-11:20pm",
+                "room":"Humanities 1006"
+            }
+        ],
+        "recitations":[
+            {
+                "section":"R06 (McKenna)",
+                "day_time":"Mondays, 10:00am-10:53am",
+                "location":"New CS 115",
+                "ta_1":"Lei Song",
+                "ta_2":"Qihong Jiang"
+            },
+            {
+                "section":"R07 (McKenna)",
+                "day_time":"Wednesdays, 10:00am-10:53am",
+                "location":"New CS 115",
+                "ta_1":"Mankirat Gulati",
+                "ta_2":"Sammi Wu Leung"
+            },
+            {
+                "section":"R08 (McKenna)",
+                "day_time":"Wednesdays, 2:30pm-3:23pm",
+                "location":"New CS 115",
+                "ta_1":"Sammi Wu Leung",
+                "ta_2":"Qihong Jiang"
+            }
+        ],
+        "labs":[
+        ]
+    },
+    {
+        "startHour":"8",
+        "endHour":"23",
+        "instructor":{
+            "name":"Richard McKenna",
+            "link":"http://www.cs.stonybrook.edu/~richard",
+            "email":"richard@cs.stonybrook.edu",
+            "room":"New CS 219",
+            "hours":[
+                {
+                    "day":"Tuesday",
+                    "time":"1:00pm-2:20pm"
+                },
+                {
+                    "day":"Wednesday",
+                    "time":"2pm-3pm"
+                },
+                {
+                    "day":"Thursday",
+                    "time":"1:00pm-2:20pm"
+                }
+            ]
+        },
+        "grad_tas":[
+            {
+                "name":"Aarin Chase",
+                "email":"Aarin.Chase@stonybrook.edu",
+                "type":"Graduate"
+            },
+            {
+                "name":"Bo Cao",
+                "email":"Bo.Cao.1@stonybrook.edu",
+                "type":"Graduate"
+            },
+            {
+                "name":"Kaho Kui",
+                "email":"kaho.kui@stonybrook.edu",
+                "type":"Graduate"
+            },
+            {
+                "name":"Richard Huang",
+                "email":"yueyang.huang@stonybrook.edu",
+                "type":"Graduate"
+            }
+        ],
+        "undergrad_tas":[
+            {
+                "name":"Abraham Rosloff",
+                "email":"abraham.rosloff@stonybrook.edu",
+                "type":"Undergraduate"
+            },
+            {
+                "name":"Anghel De Las Casas",
+                "email":"anghel.delascasas@stonybrook.edu",
+                "type":"Undergraduate"
+            },
+            {
+                "name":"Dhruv Sheth",
+                "email":"dhruv.sheth@stonybrook.edu",
+                "type":"Undergraduate"
+            },
+            {
+                "name":"Heng An Lin",
+                "email":"Hengan.lin@stonybrook.edu",
+                "type":"Undergraduate"
+            },
+            {
+                "name":"Lei Song",
+                "email":"lei.song@stonybrook.edu",
+                "type":"Undergraduate"
+            },
+            {
+                "name":"Mankirat Gulati",
+                "email":"mankirat.gulati@stonybrook.edu",
+                "type":"Undergraduate"
+            },
+            {
+                "name":"Melanie Logan",
+                "email":"melanie.logan@stonybrook.edu",
+                "type":"Undergraduate"
+            },
+            {
+                "name":"Michael McDonagh",
+                "email":"Michael.J.McDonagh@stonybrook.edu",
+                "type":"Undergraduate"
+            },
+            {
+                "name":"Qihong Jiang",
+                "email":"qihong.jiang@stonybrook.edu",
+                "type":"Undergraduate"
+            },
+            {
+                "name":"Sammi Wu Leung",
+                "email":"sammi.wuleung@stonybrook.edu",
+                "type":"Undergraduate"
+            },
+            {
+                "name":"Stephen Chen",
+                "email":"stephen.chen@stonybrook.edu",
+                "type":"Undergraduate"
+            },
+            {
+                "name":"Weihao Li",
+                "email":"weihao.li@stonybrook.edu",
+                "type":"Undergraduate"
+            },
+            {
+                "name":"Xiangying Liu",
+                "email":"xiangying.liu@stonybrook.edu",
+                "type":"Undergraduate"
+            },
+            {
+                "name":"Xiaoxiao Liu",
+                "email":"xiao.x.liu@stonybrook.edu",
+                "type":"Undergraduate"
+            },
+            {
+                "name":"Zengxian Lin",
+                "email":"zengxian.lin@stonybrook.edu",
+                "type":"Undergraduate"
+            },
+            {
+                "name":"Zihao Wang",
+                "email":"zihao.wang.3@stonybrook.edu",
+                "type":"Undergraduate"
+            }
+        ],
+        "officeHours":[
+            {
+                "time":"10_00am",
+                "day":"TUESDAY",
+                "name":"Lecture"
+            },
+            {
+                "time":"10_30am",
+                "day":"TUESDAY",
+                "name":"Lecture"
+            },
+            {
+                "time":"11_00pm",
+                "day":"TUESDAY",
+                "name":"Lecture"
+            },
+            {
+                "time":"10_00am",
+                "day":"THURSDAY",
+                "name":"Lecture"
+            },
+            {
+                "time":"10_30am",
+                "day":"THURSDAY",
+                "name":"Lecture"
+            },
+            {
+                "time":"11_00pm",
+                "day":"THURSDAY",
+                "name":"Lecture"
+            },
+            {
+                "time":"1_00pm",
+                "day":"TUESDAY",
+                "name":"Richard McKenna"
+            },
+            {
+                "time":"1_30pm",
+                "day":"TUESDAY",
+                "name":"Richard McKenna"
+            },
+            {
+                "time":"2_00pm",
+                "day":"TUESDAY",
+                "name":"Richard McKenna"
+            },
+            {
+                "time":"2_00pm",
+                "day":"WEDNESDAY",
+                "name":"Richard McKenna"
+            },
+            {
+                "time":"2_30pm",
+                "day":"WEDNESDAY",
+                "name":"Richard McKenna"
+            },
+            {
+                "time":"1_00pm",
+                "day":"THURSDAY",
+                "name":"Richard McKenna"
+            },
+            {
+                "time":"1_30pm",
+                "day":"THURSDAY",
+                "name":"Richard McKenna"
+            },
+            {
+                "time":"2_00pm",
+                "day":"THURSDAY",
+                "name":"Richard McKenna"
+            },
+            {
+                "time":"8_00am",
+                "day":"MONDAY",
+                "name":"Lei Song"
+            },
+            {
+                "time":"8_00am",
+                "day":"TUESDAY",
+                "name":"Xiangying Liu"
+            },
+            {
+                "time":"8_00am",
+                "day":"WEDNESDAY",
+                "name":"Zengxian Lin"
+            },
+            {
+                "time":"8_00am",
+                "day":"THURSDAY",
+                "name":"Xiangying Liu"
+            },
+            {
+                "time":"8_00am",
+                "day":"FRIDAY",
+                "name":"Aarin Chase"
+            },
+            {
+                "time":"8_00am",
+                "day":"FRIDAY",
+                "name":"Lei Song"
+            },
+            {
+                "time":"8_30am",
+                "day":"MONDAY",
+                "name":"Lei Song"
+            },
+            {
+                "time":"8_30am",
+                "day":"TUESDAY",
+                "name":"Xiangying Liu"
+            },
+            {
+                "time":"8_30am",
+                "day":"WEDNESDAY",
+                "name":"Zengxian Lin"
+            },
+            {
+                "time":"8_30am",
+                "day":"THURSDAY",
+                "name":"Xiangying Liu"
+            },
+            {
+                "time":"8_30am",
+                "day":"FRIDAY",
+                "name":"Lei Song"
+            },
+            {
+                "time":"9_00am",
+                "day":"MONDAY",
+                "name":"Lei Song"
+            },
+            {
+                "time":"9_00am",
+                "day":"TUESDAY",
+                "name":"Xiangying Liu"
+            },
+            {
+                "time":"9_00am",
+                "day":"WEDNESDAY",
+                "name":"Zengxian Lin"
+            },
+            {
+                "time":"9_00am",
+                "day":"THURSDAY",
+                "name":"Xiangying Liu"
+            },
+            {
+                "time":"9_00am",
+                "day":"FRIDAY",
+                "name":"Lei Song"
+            },
+            {
+                "time":"9_30am",
+                "day":"MONDAY",
+                "name":"Lei Song"
+            },
+            {
+                "time":"9_30am",
+                "day":"WEDNESDAY",
+                "name":"Zengxian Lin"
+            },
+            {
+                "time":"9_30am",
+                "day":"FRIDAY",
+                "name":"Lei Song"
+            },
+            {
+                "time":"10_00am",
+                "day":"MONDAY",
+                "name":"Melanie Logan"
+            },
+            {
+                "time":"10_00am",
+                "day":"WEDNESDAY",
+                "name":"Melanie Logan"
+            },
+            {
+                "time":"10_00am",
+                "day":"FRIDAY",
+                "name":"Xiangying Liu"
+            },
+            {
+                "time":"10_30am",
+                "day":"MONDAY",
+                "name":"Melanie Logan"
+            },
+            {
+                "time":"10_30am",
+                "day":"WEDNESDAY",
+                "name":"Melanie Logan"
+            },
+            {
+                "time":"10_30am",
+                "day":"FRIDAY",
+                "name":"Xiangying Liu"
+            },
+            {
+                "time":"11_00am",
+                "day":"MONDAY",
+                "name":"Melanie Logan"
+            },
+            {
+                "time":"11_00am",
+                "day":"WEDNESDAY",
+                "name":"Melanie Logan"
+            },
+            {
+                "time":"11_00am",
+                "day":"FRIDAY",
+                "name":"Xiangying Liu"
+            },
+            {
+                "time":"11_30am",
+                "day":"WEDNESDAY",
+                "name":"Melanie Logan"
+            },
+            {
+                "time":"11_30am",
+                "day":"THURSDAY",
+                "name":"Abraham Rosloff"
+            },
+            {
+                "time":"11_30am",
+                "day":"FRIDAY",
+                "name":"Xiangying Liu"
+            },
+            {
+                "time":"12_00pm",
+                "day":"MONDAY",
+                "name":"Michael McDonagh"
+            },
+            {
+                "time":"12_00pm",
+                "day":"MONDAY",
+                "name":"Zihao Wang"
+            },
+            {
+                "time":"12_00pm",
+                "day":"WEDNESDAY",
+                "name":"Melanie Logan"
+            },
+            {
+                "time":"12_00pm",
+                "day":"WEDNESDAY",
+                "name":"Michael McDonagh"
+            },
+            {
+                "time":"12_00pm",
+                "day":"THURSDAY",
+                "name":"Abraham Rosloff"
+            },
+            {
+                "time":"12_00pm",
+                "day":"THURSDAY",
+                "name":"Weihao Li"
+            },
+            {
+                "time":"12_00pm",
+                "day":"FRIDAY",
+                "name":"Heng An Lin"
+            },
+            {
+                "time":"12_30pm",
+                "day":"MONDAY",
+                "name":"Michael McDonagh"
+            },
+            {
+                "time":"12_30pm",
+                "day":"MONDAY",
+                "name":"Zihao Wang"
+            },
+            {
+                "time":"12_30pm",
+                "day":"TUESDAY",
+                "name":"Anghel De Las Casas"
+            },
+            {
+                "time":"12_30pm",
+                "day":"WEDNESDAY",
+                "name":"Melanie Logan"
+            },
+            {
+                "time":"12_30pm",
+                "day":"WEDNESDAY",
+                "name":"Michael McDonagh"
+            },
+            {
+                "time":"12_30pm",
+                "day":"THURSDAY",
+                "name":"Abraham Rosloff"
+            },
+            {
+                "time":"12_30pm",
+                "day":"THURSDAY",
+                "name":"Weihao Li"
+            },
+            {
+                "time":"12_30pm",
+                "day":"FRIDAY",
+                "name":"Heng An Lin"
+            },
+            {
+                "time":"1_00pm",
+                "day":"MONDAY",
+                "name":"Michael McDonagh"
+            },
+            {
+                "time":"1_00pm",
+                "day":"MONDAY",
+                "name":"Zihao Wang"
+            },
+            {
+                "time":"1_00pm",
+                "day":"TUESDAY",
+                "name":"Anghel De Las Casas"
+            },
+            {
+                "time":"1_00pm",
+                "day":"WEDNESDAY",
+                "name":"Melanie Logan"
+            },
+            {
+                "time":"1_00pm",
+                "day":"WEDNESDAY",
+                "name":"Michael McDonagh"
+            },
+            {
+                "time":"1_00pm",
+                "day":"WEDNESDAY",
+                "name":"Qihong Jiang"
+            },
+            {
+                "time":"1_00pm",
+                "day":"FRIDAY",
+                "name":"Heng An Lin"
+            },
+            {
+                "time":"1_30pm",
+                "day":"MONDAY",
+                "name":"Michael McDonagh"
+            },
+            {
+                "time":"1_30pm",
+                "day":"MONDAY",
+                "name":"Sammi Wu Leung"
+            },
+            {
+                "time":"1_30pm",
+                "day":"TUESDAY",
+                "name":"Anghel De Las Casas"
+            },
+            {
+                "time":"1_30pm",
+                "day":"WEDNESDAY",
+                "name":"Michael McDonagh"
+            },
+            {
+                "time":"1_30pm",
+                "day":"WEDNESDAY",
+                "name":"Qihong Jiang"
+            },
+            {
+                "time":"1_30pm",
+                "day":"FRIDAY",
+                "name":"Heng An Lin"
+            },
+            {
+                "time":"2_00pm",
+                "day":"MONDAY",
+                "name":"Michael McDonagh"
+            },
+            {
+                "time":"2_00pm",
+                "day":"MONDAY",
+                "name":"Sammi Wu Leung"
+            },
+            {
+                "time":"2_00pm",
+                "day":"TUESDAY",
+                "name":"Mankirat Gulati"
+            },
+            {
+                "time":"2_00pm",
+                "day":"WEDNESDAY",
+                "name":"Michael McDonagh"
+            },
+            {
+                "time":"2_00pm",
+                "day":"WEDNESDAY",
+                "name":"Qihong Jiang"
+            },
+            {
+                "time":"2_00pm",
+                "day":"FRIDAY",
+                "name":"Heng An Lin"
+            },
+            {
+                "time":"2_30pm",
+                "day":"MONDAY",
+                "name":"Sammi Wu Leung"
+            },
+            {
+                "time":"2_30pm",
+                "day":"TUESDAY",
+                "name":"Mankirat Gulati"
+            },
+            {
+                "time":"2_30pm",
+                "day":"WEDNESDAY",
+                "name":"Abraham Rosloff"
+            },
+            {
+                "time":"2_30pm",
+                "day":"THURSDAY",
+                "name":"Dhruv Sheth"
+            },
+            {
+                "time":"2_30pm",
+                "day":"THURSDAY",
+                "name":"Weihao Li"
+            },
+            {
+                "time":"2_30pm",
+                "day":"FRIDAY",
+                "name":"Heng An Lin"
+            },
+            {
+                "time":"3_00pm",
+                "day":"MONDAY",
+                "name":"Sammi Wu Leung"
+            },
+            {
+                "time":"3_00pm",
+                "day":"TUESDAY",
+                "name":"Mankirat Gulati"
+            },
+            {
+                "time":"3_00pm",
+                "day":"WEDNESDAY",
+                "name":"Abraham Rosloff"
+            },
+            {
+                "time":"3_00pm",
+                "day":"THURSDAY",
+                "name":"Dhruv Sheth"
+            },
+            {
+                "time":"3_00pm",
+                "day":"THURSDAY",
+                "name":"Weihao Li"
+            },
+            {
+                "time":"3_00pm",
+                "day":"FRIDAY",
+                "name":"Heng An Lin"
+            },
+            {
+                "time":"3_30pm",
+                "day":"MONDAY",
+                "name":"Anghel De Las Casas"
+            },
+            {
+                "time":"3_30pm",
+                "day":"TUESDAY",
+                "name":"Mankirat Gulati"
+            },
+            {
+                "time":"3_30pm",
+                "day":"TUESDAY",
+                "name":"Zihao Wang"
+            },
+            {
+                "time":"3_30pm",
+                "day":"WEDNESDAY",
+                "name":"Abraham Rosloff"
+            },
+            {
+                "time":"3_30pm",
+                "day":"WEDNESDAY",
+                "name":"Dhruv Sheth"
+            },
+            {
+                "time":"3_30pm",
+                "day":"THURSDAY",
+                "name":"Dhruv Sheth"
+            },
+            {
+                "time":"3_30pm",
+                "day":"THURSDAY",
+                "name":"Weihao Li"
+            },
+            {
+                "time":"3_30pm",
+                "day":"FRIDAY",
+                "name":"Heng An Lin"
+            },
+            {
+                "time":"4_00pm",
+                "day":"MONDAY",
+                "name":"Anghel De Las Casas"
+            },
+            {
+                "time":"4_00pm",
+                "day":"TUESDAY",
+                "name":"Mankirat Gulati"
+            },
+            {
+                "time":"4_00pm",
+                "day":"TUESDAY",
+                "name":"Zihao Wang"
+            },
+            {
+                "time":"4_00pm",
+                "day":"WEDNESDAY",
+                "name":"Dhruv Sheth"
+            },
+            {
+                "time":"4_00pm",
+                "day":"WEDNESDAY",
+                "name":"Sammi Wu Leung"
+            },
+            {
+                "time":"4_00pm",
+                "day":"THURSDAY",
+                "name":"Dhruv Sheth"
+            },
+            {
+                "time":"4_00pm",
+                "day":"THURSDAY",
+                "name":"Weihao Li"
+            },
+            {
+                "time":"4_00pm",
+                "day":"FRIDAY",
+                "name":"Heng An Lin"
+            },
+            {
+                "time":"4_30pm",
+                "day":"MONDAY",
+                "name":"Anghel De Las Casas"
+            },
+            {
+                "time":"4_30pm",
+                "day":"TUESDAY",
+                "name":"Mankirat Gulati"
+            },
+            {
+                "time":"4_30pm",
+                "day":"WEDNESDAY",
+                "name":"Dhruv Sheth"
+            },
+            {
+                "time":"4_30pm",
+                "day":"WEDNESDAY",
+                "name":"Sammi Wu Leung"
+            },
+            {
+                "time":"4_30pm",
+                "day":"THURSDAY",
+                "name":"Dhruv Sheth"
+            },
+            {
+                "time":"4_30pm",
+                "day":"THURSDAY",
+                "name":"Weihao Li"
+            },
+            {
+                "time":"4_30pm",
+                "day":"FRIDAY",
+                "name":"Heng An Lin"
+            },
+            {
+                "time":"5_00pm",
+                "day":"MONDAY",
+                "name":"Anghel De Las Casas"
+            },
+            {
+                "time":"5_00pm",
+                "day":"TUESDAY",
+                "name":"Mankirat Gulati"
+            },
+            {
+                "time":"5_00pm",
+                "day":"WEDNESDAY",
+                "name":"Dhruv Sheth"
+            },
+            {
+                "time":"5_00pm",
+                "day":"WEDNESDAY",
+                "name":"Qihong Jiang"
+            },
+            {
+                "time":"5_00pm",
+                "day":"THURSDAY",
+                "name":"Zihao Wang"
+            },
+            {
+                "time":"5_00pm",
+                "day":"FRIDAY",
+                "name":"Zengxian Lin"
+            },
+            {
+                "time":"5_30pm",
+                "day":"MONDAY",
+                "name":"Anghel De Las Casas"
+            },
+            {
+                "time":"5_30pm",
+                "day":"TUESDAY",
+                "name":"Mankirat Gulati"
+            },
+            {
+                "time":"5_30pm",
+                "day":"WEDNESDAY",
+                "name":"Dhruv Sheth"
+            },
+            {
+                "time":"5_30pm",
+                "day":"WEDNESDAY",
+                "name":"Qihong Jiang"
+            },
+            {
+                "time":"5_30pm",
+                "day":"THURSDAY",
+                "name":"Zihao Wang"
+            },
+            {
+                "time":"5_30pm",
+                "day":"FRIDAY",
+                "name":"Zengxian Lin"
+            },
+            {
+                "time":"6_00pm",
+                "day":"MONDAY",
+                "name":"Xiaoxiao Liu"
+            },
+            {
+                "time":"6_00pm",
+                "day":"TUESDAY",
+                "name":"Sammi Wu Leung"
+            },
+            {
+                "time":"6_00pm",
+                "day":"WEDNESDAY",
+                "name":"Qihong Jiang"
+            },
+            {
+                "time":"6_00pm",
+                "day":"WEDNESDAY",
+                "name":"Xiaoxiao Liu"
+            },
+            {
+                "time":"6_00pm",
+                "day":"THURSDAY",
+                "name":"Zihao Wang"
+            },
+            {
+                "time":"6_00pm",
+                "day":"FRIDAY",
+                "name":"Zengxian Lin"
+            },
+            {
+                "time":"6_30pm",
+                "day":"MONDAY",
+                "name":"Xiaoxiao Liu"
+            },
+            {
+                "time":"6_30pm",
+                "day":"TUESDAY",
+                "name":"Sammi Wu Leung"
+            },
+            {
+                "time":"6_30pm",
+                "day":"WEDNESDAY",
+                "name":"Xiaoxiao Liu"
+            },
+            {
+                "time":"6_30pm",
+                "day":"THURSDAY",
+                "name":"Abraham Rosloff"
+            },
+            {
+                "time":"6_30pm",
+                "day":"FRIDAY",
+                "name":"Zengxian Lin"
+            },
+            {
+                "time":"7_00pm",
+                "day":"MONDAY",
+                "name":"Xiaoxiao Liu"
+            },
+            {
+                "time":"7_00pm",
+                "day":"TUESDAY",
+                "name":"Sammi Wu Leung"
+            },
+            {
+                "time":"7_00pm",
+                "day":"WEDNESDAY",
+                "name":"Xiaoxiao Liu"
+            },
+            {
+                "time":"7_00pm",
+                "day":"THURSDAY",
+                "name":"Abraham Rosloff"
+            },
+            {
+                "time":"7_00pm",
+                "day":"FRIDAY",
+                "name":"Zengxian Lin"
+            },
+            {
+                "time":"7_30pm",
+                "day":"MONDAY",
+                "name":"Xiaoxiao Liu"
+            },
+            {
+                "time":"7_30pm",
+                "day":"TUESDAY",
+                "name":"Sammi Wu Leung"
+            },
+            {
+                "time":"7_30pm",
+                "day":"WEDNESDAY",
+                "name":"Xiaoxiao Liu"
+            },
+            {
+                "time":"7_30pm",
+                "day":"THURSDAY",
+                "name":"Abraham Rosloff"
+            },
+            {
+                "time":"7_30pm",
+                "day":"FRIDAY",
+                "name":"Zengxian Lin"
+            },
+            {
+                "time":"8_00pm",
+                "day":"MONDAY",
+                "name":"Xiaoxiao Liu"
+            },
+            {
+                "time":"8_00pm",
+                "day":"TUESDAY",
+                "name":"Zihao Wang"
+            },
+            {
+                "time":"8_00pm",
+                "day":"WEDNESDAY",
+                "name":"Xiaoxiao Liu"
+            },
+            {
+                "time":"8_00pm",
+                "day":"THURSDAY",
+                "name":"Abraham Rosloff"
+            },
+            {
+                "time":"8_00pm",
+                "day":"FRIDAY",
+                "name":"Stephen Chen"
+            },
+            {
+                "time":"8_30pm",
+                "day":"TUESDAY",
+                "name":"Zihao Wang"
+            },
+            {
+                "time":"8_30pm",
+                "day":"WEDNESDAY",
+                "name":"Stephen Chen"
+            },
+            {
+                "time":"8_30pm",
+                "day":"THURSDAY",
+                "name":"Stephen Chen"
+            },
+            {
+                "time":"8_30pm",
+                "day":"FRIDAY",
+                "name":"Stephen Chen"
+            },
+            {
+                "time":"9_00pm",
+                "day":"WEDNESDAY",
+                "name":"Stephen Chen"
+            },
+            {
+                "time":"9_00pm",
+                "day":"THURSDAY",
+                "name":"Stephen Chen"
+            },
+            {
+                "time":"9_00pm",
+                "day":"FRIDAY",
+                "name":"Stephen Chen"
+            },
+            {
+                "time":"9_30pm",
+                "day":"FRIDAY",
+                "name":"Stephen Chen"
+            },
+            {
+                "time":"10_00pm",
+                "day":"FRIDAY",
+                "name":"Stephen Chen"
+            },
+            {
+                "time":"10_30pm",
+                "day":"FRIDAY",
+                "name":"Stephen Chen"
+            }
+        ]
+    },
+    {
+        "startingMondayMonth":"8",
+        "startingMondayDay":"27",
+        "endingFridayMonth":"12",
+        "endingFridayDay":"21",
+        "holidays":[
+            {
+                "month":"9",
+                "day":"3",
+                "title":"LABOR DAY",
+                "topic":"",
+                "link":""
+            },
+            {
+                "month":"10",
+                "day":"8",
+                "title":"FALL BREAK?<br /><br /><br />",
+                "topic":"",
+                "link":""
+            },
+            {
+                "month":"10",
+                "day":"9",
+                "title":"FALL BREAK?",
+                "topic":"",
+                "link":""
+            },
+            {
+                "month":"11",
+                "day":"21",
+                "title":"TRAVEL DAY",
+                "topic":"",
+                "link":""
+            },
+            {
+                "month":"11",
+                "day":"22",
+                "title":"THANKSGIVING",
+                "topic":"",
+                "link":""
+            },
+            {
+                "month":"11",
+                "day":"23",
+                "title":"BLACK FRIDAY",
+                "topic":"",
+                "link":""
+            },
+            {
+                "month":"12",
+                "day":"11",
+                "title":"READING DAY",
+                "topic":"",
+                "link":""
+            },
+            {
+                "month":"12",
+                "day":"12",
+                "title":"",
+                "topic":"",
+                "link":""
+            },
+            {
+                "month":"12",
+                "day":"13",
+                "title":"",
+                "topic":"",
+                "link":""
+            },
+            {
+                "month":"12",
+                "day":"14",
+                "title":"",
+                "topic":"",
+                "link":""
+            },
+            {
+                "month":"12",
+                "day":"17",
+                "title":"",
+                "topic":"",
+                "link":""
+            },
+            {
+                "month":"12",
+                "day":"18",
+                "title":"",
+                "topic":"",
+                "link":""
+            },
+            {
+                "month":"12",
+                "day":"19",
+                "title":"",
+                "topic":"",
+                "link":""
+            },
+            {
+                "month":"12",
+                "day":"20",
+                "title":"",
+                "topic":"",
+                "link":""
+            },
+            {
+                "month":"12",
+                "day":"21",
+                "title":"",
+                "topic":"",
+                "link":""
+            }
+        ],
+        "lectures":[
+            {
+                "month":"8",
+                "day":"28",
+                "title":"Lecture 1",
+                "topic":"Software<br />Development<br />Lifecycle<br /><br />",
+                "link":""
+            },
+            {
+                "month":"8",
+                "day":"30",
+                "title":"Lecture 2",
+                "topic":"Graphical<br />User<br />Interfaces<br /><br />",
+                "link":""
+            },
+            {
+                "month":"9",
+                "day":"4",
+                "title":"Lecture 3",
+                "topic":"Event<br />Programming<br /><br />",
+                "link":""
+            },
+            {
+                "month":"9",
+                "day":"6",
+                "title":"Lecture 4",
+                "topic":"Graphics<br />&amp; GUIs<br /><br />",
+                "link":""
+            },
+            {
+                "month":"9",
+                "day":"11",
+                "title":"Lecture 5",
+                "topic":"Threads<br /><br />",
+                "link":""
+            },
+            {
+                "month":"9",
+                "day":"13",
+                "title":"Lecture 6",
+                "topic":"Threads<br />(continued)<br /><br />",
+                "link":""
+            },
+            {
+                "month":"9",
+                "day":"18",
+                "title":"Lecture 7",
+                "topic":"Multithreading<br />Issues<br /><br /><br />",
+                "link":""
+            },
+            {
+                "month":"9",
+                "day":"20",
+                "title":"Lecture 8",
+                "topic":"Multithreading<br />(continued)<br /><br />",
+                "link":""
+            },
+            {
+                "month":"9",
+                "day":"25",
+                "title":"Lecture 9",
+                "topic":"Properties of<br />High Quality Software<br /><br />",
+                "link":""
+            },
+            {
+                "month":"9",
+                "day":"27",
+                "title":"Lecture 10",
+                "topic":"OOP++<br /><br />",
+                "link":""
+            },
+            {
+                "month":"10",
+                "day":"2",
+                "title":"Lecture 11",
+                "topic":"OOP++<br />(continued)<br /><br /><br />",
+                "link":""
+            },
+            {
+                "month":"10",
+                "day":"4",
+                "title":"Lecture 13",
+                "topic":"OOP++<br />(continued)<br /><br />",
+                "link":""
+            },
+            {
+                "month":"10",
+                "day":"11",
+                "title":"Lecture 13",
+                "topic":"Object-Oriented Design<br />using UML<br /><br />",
+                "link":""
+            },
+            {
+                "month":"10",
+                "day":"16",
+                "title":"Midterm Exam",
+                "topic":"(<a href='https://blackboard.stonybrook.edu/bbcswebdav/pid-4626381-dt-content-rid-32609249_1/xid-32609249_1'>Version 1 Solutions</a>)<br />(<a href='https://blackboard.stonybrook.edu/bbcswebdav/pid-4626381-dt-content-rid-32609250_1/xid-32609250_1'>Version 2 Solutions</a>)<br /><br />",
+                "link":""
+            },
+            {
+                "month":"10",
+                "day":"18",
+                "title":"Lecture 15",
+                "topic":"Object-Oriented Design<br />using UML<br />(continued)<br />",
+                "link":""
+            },
+            {
+                "month":"10",
+                "day":"23",
+                "title":"Lecture 16",
+                "topic":"Design Review<br /><br />",
+                "link":""
+            },
+            {
+                "month":"10",
+                "day":"25",
+                "title":"Lecture 17",
+                "topic":"Design Review<br />(continued)<br /><br />",
+                "link":""
+            },
+            {
+                "month":"10",
+                "day":"30",
+                "title":"Lecture 18",
+                "topic":"Designing<br />with Exceptions",
+                "link":""
+            },
+            {
+                "month":"11",
+                "day":"1",
+                "title":"Lecture 19",
+                "topic":"Test-Driven<br />Development<br /><br /><br />",
+                "link":""
+            },
+            {
+                "month":"11",
+                "day":"6",
+                "title":"Lecture 20",
+                "topic":"Test-Driven<br />Development<br />(continued)<br /><br />",
+                "link":""
+            },
+            {
+                "month":"11",
+                "day":"8",
+                "title":"Lecture 21",
+                "topic":"Creational<br />Design Patterns<br /><br />",
+                "link":""
+            },
+            {
+                "month":"11",
+                "day":"13",
+                "title":"Lecture 22",
+                "topic":"Creational<br />Design Patterns<br />(continued)<br /><br /><br />",
+                "link":""
+            },
+            {
+                "month":"11",
+                "day":"15",
+                "title":"Lecture 23",
+                "topic":"Behavioral<br />Design Patterns<br /><br /><br />",
+                "link":""
+            },
+            {
+                "month":"11",
+                "day":"20",
+                "title":"NO LECTURE",
+                "topic":"(Project Work Day)<br /><br />",
+                "link":""
+            },
+            {
+                "month":"11",
+                "day":"27",
+                "title":"Lecture 25",
+                "topic":"Structural<br />Design Patterns<br /><br /><br />",
+                "link":""
+            },
+            {
+                "month":"11",
+                "day":"29",
+                "title":"Lecture 26",
+                "topic":"Code Profiling<br /><br />",
+                "link":""
+            },
+            {
+                "month":"12",
+                "day":"4",
+                "title":"Guest Lecture",
+                "topic":"TBA<br /><br />",
+                "link":""
+            },
+            {
+                "month":"12",
+                "day":"6",
+                "title":"Lecture 28",
+                "topic":"Final<br />Review<br /><br />",
+                "link":""
+            },
+            {
+                "month":"12",
+                "day":"20",
+                "title":"<a href='https://www.stonybrook.edu/commcms/registrar/registration/_exams/fall18-finals.php'>FINAL EXAM</a>",
+                "topic":"(8:00am-10:45am)<br />(Cumulative)<br /><br />",
+                "link":""
+            }
+        ],
+        "references":[
+            {
+                "month":"8",
+                "day":"30",
+                "title":"Reference",
+                "topic":"JavaFX Examples",
+                "link":""
+            },
+            {
+                "month":"9",
+                "day":"11",
+                "title":"Reference",
+                "topic":"Progress Example",
+                "link":""
+            },
+            {
+                "month":"10",
+                "day":"15",
+                "title":"Midterm Review",
+                "topic":"5pm, Old CS 2311<br /><br />",
+                "link":""
+            },
+            {
+                "month":"10",
+                "day":"26",
+                "title":"Drop Deadline",
+                "topic":"Last Day to Drop<br /> with a 'W'",
+                "link":""
+            }
+        ],
+        "recitations":[
+            {
+                "month":"8",
+                "day":"29",
+                "title":"NO RECITATION",
+                "topic":"<br /><br />",
+                "link":""
+            },
+            {
+                "month":"9",
+                "day":"5",
+                "title":"Recitation 1",
+                "topic":"Debugging<br /><br />",
+                "link":""
+            },
+            {
+                "month":"9",
+                "day":"10",
+                "title":"Recitation 1",
+                "topic":"Debugging<br /><br />",
+                "link":""
+            },
+            {
+                "month":"9",
+                "day":"12",
+                "title":"Recitation 2",
+                "topic":"Version Control<br /><br />",
+                "link":""
+            },
+            {
+                "month":"9",
+                "day":"17",
+                "title":"Recitation 2",
+                "topic":"Version Control<br /><br />",
+                "link":""
+            },
+            {
+                "month":"9",
+                "day":"19",
+                "title":"Recitation 3",
+                "topic":"Canvas<br /><br />",
+                "link":""
+            },
+            {
+                "month":"9",
+                "day":"24",
+                "title":"Recitation 3",
+                "topic":"Canvas<br /><br />",
+                "link":""
+            },
+            {
+                "month":"9",
+                "day":"26",
+                "title":"Recitation 4",
+                "topic":"Front-End<br />Web Technologies<br /><br /><br />",
+                "link":""
+            },
+            {
+                "month":"10",
+                "day":"1",
+                "title":"Recitation 4",
+                "topic":"Front-End<br />Web Technologies<br /><br /><br />",
+                "link":""
+            },
+            {
+                "month":"10",
+                "day":"3",
+                "title":"Recitation 5",
+                "topic":"Threads<br /><br /><br />",
+                "link":""
+            },
+            {
+                "month":"10",
+                "day":"10",
+                "title":"NO RECITATION",
+                "topic":"<br />",
+                "link":""
+            },
+            {
+                "month":"10",
+                "day":"15",
+                "title":"Recitation 5",
+                "topic":"Threads<br /><br />",
+                "link":""
+            },
+            {
+                "month":"10",
+                "day":"17",
+                "title":"Recitation 6",
+                "topic":"UML<br />Diagrams<br /><br />",
+                "link":""
+            },
+            {
+                "month":"10",
+                "day":"22",
+                "title":"Recitation 6",
+                "topic":"UML<br />Diagrams<br /><br />",
+                "link":""
+            },
+            {
+                "month":"10",
+                "day":"24",
+                "title":"NO RECITATION",
+                "topic":"<br /><br />",
+                "link":""
+            },
+            {
+                "month":"10",
+                "day":"29",
+                "title":"Recitation 7",
+                "topic":"Mock-Ups<br /><br />",
+                "link":""
+            },
+            {
+                "month":"10",
+                "day":"31",
+                "title":"Recitation 7",
+                "topic":"Mock-Ups<br /><br />",
+                "link":""
+            },
+            {
+                "month":"11",
+                "day":"5",
+                "title":"Recitation 8",
+                "topic":"Unit Testing<br /><br />",
+                "link":""
+            },
+            {
+                "month":"11",
+                "day":"7",
+                "title":"Recitation 8",
+                "topic":"Unit Testing<br /><br />",
+                "link":""
+            },
+            {
+                "month":"11",
+                "day":"12",
+                "title":"Recitation 9",
+                "topic":"Making Frameworks<br /><br />",
+                "link":""
+            },
+            {
+                "month":"11",
+                "day":"14",
+                "title":"Recitation 9",
+                "topic":"Making Frameworks<br /><br />",
+                "link":""
+            },
+            {
+                "month":"11",
+                "day":"19",
+                "title":"NO RECITATION",
+                "topic":"<br /><br />",
+                "link":""
+            },
+            {
+                "month":"11",
+                "day":"26",
+                "title":"Recitation 10",
+                "topic":"Code Profiling<br /><br />",
+                "link":""
+            },
+            {
+                "month":"11",
+                "day":"28",
+                "title":"Recitation 10",
+                "topic":"Code Profiling<br /><br />",
+                "link":""
+            },
+            {
+                "month":"12",
+                "day":"3",
+                "title":"Recitation 11",
+                "topic":"Exam Review<br /><br />",
+                "link":""
+            },
+            {
+                "month":"12",
+                "day":"5",
+                "title":"Recitation 11",
+                "topic":"Exam Review<br /><br />",
+                "link":""
+            },
+            {
+                "month":"12",
+                "day":"10",
+                "title":"NO RECITATION",
+                "topic":"<br /><br />",
+                "link":""
+            }
+        ],
+        "hws":[
+            {
+                "month":"9",
+                "day":"21",
+                "title":"<a href='./hw/HW1.html'>HW 1</a><br />(<a href='https://blackboard.stonybrook.edu/bbcswebdav/pid-4611779-dt-content-rid-32136873_1/xid-32136873_1'>Solutions</a>)",
+                "topic":"due @ 11:59pm<br />(GUIs &amp; Events)",
+                "link":""
+            },
+            {
+                "month":"10",
+                "day":"10",
+                "title":"<a href='./hw/HW2.html'>HW 2</a><br />(<a href='https://blackboard.stonybrook.edu/bbcswebdav/pid-4630510-dt-content-rid-32757913_1/xid-32757913_1'>Solutions</a>)",
+                "topic":"due @ 11:59pm<br />(GUIs &amp; Events)",
+                "link":""
+            },
+            {
+                "month":"10",
+                "day":"26",
+                "title":"HW 3",
+                "topic":"due @ 11:59pm<br />(UML Design)",
+                "link":""
+            },
+            {
+                "month":"11",
+                "day":"7",
+                "title":"HW 4",
+                "topic":"due @ 11:59pm<br />Implementation<br />Benchmark I",
+                "link":""
+            },
+            {
+                "month":"11",
+                "day":"20",
+                "title":"HW 5",
+                "topic":"due @ 11:59pm<br />Implementation<br />Benchmark II",
+                "link":""
+            },
+            {
+                "month":"12",
+                "day":"10",
+                "title":"Final Project",
+                "topic":"due @ 11:59pm<br />(JavaFX App)",
+                "link":""
+            }
+        ]
+    }
+]

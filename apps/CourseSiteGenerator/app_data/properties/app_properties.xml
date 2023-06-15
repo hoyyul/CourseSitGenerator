@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This XML file allows us to easily customize the look and language used
+    in our program's user interface. Note that this properties file is only
+    for the standard controls for an app from the Desktop Java Framework, so
+    it would not include things initialized for the workspace, which is
+    customizable.
+-->
+<properties>
+    <property_list>        
+        <!-- DESKTOP JAVA FRAMEWORK CONTROLS SETTINGS -->
+        <property name="APP_TITLE"	    value="Course Site Generator"></property>
+        <property name="APP_BANNER"         value="CourseSiteGeneratorWelcomeBanner.png"></property>
+	<property name="APP_LOGO"	    value="CourseSiteGeneratorLogo.png"></property>
+        <property name="APP_EXPORT_PAGE"    value="index.html"></property>
+        <property name="APP_HELP_PAGE"      value="Help.html"></property>
+        <property name="APP_ABOUT_PAGE"     value="About.html"></property>
+	<property name="APP_CSS"	    value="oh_style.css"></property>
+        <property name="APP_PATH_CSS"	    value="workspace/style/"></property>
+        <property name="APP_PATH_EXPORT"    value="./export/"></property>
+        <property name="APP_PATH_ICONS"     value="./images/icons/"></property>
+        <property name="APP_PATH_IMAGES"    value="./images/"></property>
+        <property name="APP_PATH_WEB"       value="./app_data/web/"></property>
+        <property name="APP_PATH_EXPORT"       value="./export/cse219/"></property>
+        <property name="PREF_WIDTH"         value="800"></property>
+        <property name="PREF_HEIGHT"        value="600"></property>
+        <property name="START_MAXIMIZED"    value="true"></property>
+        <property name="CURRENT_CSS"    value=""></property>
+        <property name="SEA_WOLF_CSS"    value="./export/default/css/style1.css"></property>
+        <property name="NOGIZAKA_CSS"    value="./export/default/css/style2.css"></property>
+
+        <!-- TOP TOOLBARS AND CONTROLS TO INCLUDE -->
+        <property name="HAS_WELCOME_DIALOG"     value="true"></property>
+        <property name="HAS_TOP_TOOLBAR"        value="true"></property>        
+        <property name="HAS_FILE_TOOLBAR"       value="true"></property>
+        <property name="HAS_NEW"                value="true"></property>
+        <property name="HAS_LOAD"               value="true"></property>
+        <property name="HAS_CLOSE"              value="true"></property>
+        <property name="HAS_SAVE"               value="true"></property>
+        <property name="HAS_SAVE_AS"            value="false"></property>
+        <property name="HAS_EXPORT"             value="true"></property>
+        <property name="HAS_EXIT"               value="true"></property>
+        <property name="HAS_CLIPBOARD_TOOLBAR"  value="false"></property>
+        <property name="HAS_UNDO_TOOLBAR"       value="true"></property>
+        <property name="HAS_HELP_TOOLBAR"       value="true"></property>
+        <property name="HAS_HELP"               value="true"></property>
+        <property name="HAS_LANGUAGE"           value="true"></property>
+        <property name="HAS_ABOUT"              value="true"></property>
+
+        <!-- PROGRAM ICON FILES - FILE TOOLBAR -->        
+        <property name="NEW_BUTTON_ICON"        value="New.png"></property>
+        <property name="EXPORT_BUTTON_ICON"       value="Export.png"></property>
+        <property name="LOAD_BUTTON_ICON"       value="Load.png"></property>
+        <property name="CLOSE_BUTTON_ICON"      value="Close.png"></property>
+        <property name="SAVE_BUTTON_ICON"       value="Save.png"></property>
+        <property name="EXIT_BUTTON_ICON"       value="Exit.png"></property>
+        <property name="CSG_INSTRUCTOR_OFFICEHOUR_ADDBUTTON_ICON"       value="AddItem.png"></property>
+        <property name="CSG_INSTRUCTOR_OFFICEHOUR_REMOVEBUTTON_ICON"       value="RemoveItem.png"></property>
+        <property name="CSG_DESCRIPTION_ADDBUTTON_ICON"       value="AddItem.png"></property>
+        <property name="CSG_DESCRIPTION_REMOVEBUTTON_ICON"       value="RemoveItem.png"></property>
+        <property name="CSG_TOPICS_ADDBUTTON_ICON"       value="AddItem.png"></property>
+        <property name="CSG_TOPICS_REMOVEBUTTON_ICON"       value="RemoveItem.png"></property>
+        <property name="CSG_PREREQUISITES_ADDBUTTON_ICON"       value="AddItem.png"></property>
+        <property name="CSG_PREREQUISITES_REMOVEBUTTON_ICON"       value="RemoveItem.png"></property>
+        <property name="CSG_OUTCOMES_ADDBUTTON_ICON"       value="AddItem.png"></property>
+        <property name="CSG_OUTCOMES_REMOVEBUTTON_ICON"       value="RemoveItem.png"></property>
+        <property name="CSG_TEXTBOOKS_ADDBUTTON_ICON"       value="AddItem.png"></property>
+        <property name="CSG_TEXTBOOKS_REMOVEBUTTON_ICON"       value="RemoveItem.png"></property>
+        <property name="CSG_GRADED_COMPONENTS_ADDBUTTON_ICON"       value="AddItem.png"></property>
+        <property name="CSG_GRADED_COMPONENTS_REMOVEBUTTON_ICON"       value="RemoveItem.png"></property>
+        <property name="CSG_GRADING_NOTE_ADDBUTTON_ICON"       value="AddItem.png"></property>
+        <property name="CSG_GRADING_NOTE_REMOVEBUTTON_ICON"       value="RemoveItem.png"></property>
+        <property name="CSG_ACADEMIC_DISHONESTY_ADDBUTTON_ICON"       value="AddItem.png"></property>
+        <property name="CSG_ACADEMIC_DISHONESTY_REMOVEBUTTON_ICON"       value="RemoveItem.png"></property>
+        <property name="CSG_SPECIAL_ASSISTANCE_ADDBUTTON_ICON"       value="AddItem.png"></property>
+        <property name="CSG_SPECIAL_ASSISTANCE_REMOVEBUTTON_ICON"       value="RemoveItem.png"></property>
+        <property name="CSG_ADD_LECTURE_BUTTON_ICON"       value="AddItem.png"></property>
+        <property name="CSG_REMOVE_LECTURE_BUTTON_ICON"       value="RemoveItem.png"></property>
+        <property name="CSG_ADD_RECITATION_BUTTON_ICON"       value="AddItem.png"></property>
+        <property name="CSG_REMOVE_RECITATION_BUTTON_ICON"       value="RemoveItem.png"></property>
+        <property name="CSG_ADD_LAB_BUTTON_ICON"       value="AddItem.png"></property>
+        <property name="CSG_REMOVE_LAB_BUTTON_ICON"       value="RemoveItem.png"></property>
+        <property name="CSG_SCHEDULE_ITEMS_HEARDER_REMOVEBUTTON_ICON"       value="RemoveItem.png"></property>
+        
+        <property name="CSG_OFFICEHOUR_REMOVEBUTTON_ICON"       value="RemoveItem.png"></property>
+        <property name="UNDO_BUTTON_ICON"       value="Undo.png"></property>
+        <property name="REDO_BUTTON_ICON"       value="Redo.png"></property>
+        
+        <!-- PROGRAM ICON FILES - FILE TOOLBAR -->        
+        <property name="LANGUAGE_BUTTON_ICON"   value="Language.png"></property>
+        <property name="HELP_BUTTON_ICON"       value="Help.png"></property>
+        <property name="ABOUT_BUTTON_ICON"       value="About.png"></property>
+
+        <!-- OH BUTTONS TOOLBAR -->
+        
+        <!-- THIS IS THE FILE WE'LL USE TO MAKE OUR EXPORTED WEB FILE -->
+
+        <!-- ENGLISH IS THE DEFAULT -->
+        <property name="DEFAULT_LANGUAGE"               value="English"></property>
+        <property name="ENGLISH_ABBREVIATION"           value="EN"></property>
+        <property name="CHINESE_ABBREVIATION"           value="CHI"></property>
+        <property name="CSG_SUBJECT_DEFAULT"            value="CSE"></property>
+        <property name="CSG_NUMBER_DEFAULT"             value="219"></property>
+        <property name="CSG_SEMESTER_DEFAULT"           value="Spring"></property>
+        
+        <property name="CSS_DEFAULT"                    value=""></property>
+        <property name="CSG_START_TIME_DEFAULT"               value="8:00am"></property>
+        <property name="CSG_END_TIME_DEFAULT"                    value="11:00pm"></property>
+        <property name="CSG_BOUNDARY_START_TIME_DEFAULT"               value=""></property>
+        <property name="CSG_BOUNDARY_END_TIME_DEFAULT"                    value=""></property>
+        <property name="CSG_SCHEDULE_TYPE_DEFAULT"                    value="Options"></property>
+        <property name="CSG_SCHEDULE_DATE_DEFAULT"                    value=""></property>
+        
+        
+        
+        
+    </property_list>
+    <property_options_list>
+        <property_options name="LANGUAGE_OPTIONS">
+            <option>English</option>
+            <option>Chinese</option>
+        </property_options>
+        <property_options name="SUBJECT_OPTIONS">
+            <option></option>
+            <option>CSE</option>
+            <option>AMS</option>
+        </property_options>
+        <property_options name="NUMBER_OPTIONS">
+            <option></option>
+            <option>219</option>
+            <option>220</option>
+        </property_options>
+        <property_options name="SEMESTER_OPTIONS">
+            <option></option>
+            <option>Spring</option>
+            <option>Summer</option>
+            <option>Fall</option>
+            <option>Winter</option>
+        </property_options>
+        <property_options name="YEAR_OPTIONS">
+            <option></option>
+        </property_options>
+        <property_options name="CSS_OPTIONS">
+            <option>sea_wolf.css</option>
+            <option>new_year.css</option>
+        </property_options>
+        <property_options name="CSG_START_TIME_OPTIONS">
+            <option>8:00am</option>
+            <option>9:00am</option>
+            <option>10:00am</option>
+            <option>11:00am</option>
+            <option>12:00pm</option>
+            <option>1:00pm</option>
+            <option>2:00pm</option>
+            <option>3:00pm</option>
+            <option>4:00pm</option>
+            <option>5:00pm</option>
+            <option>6:00pm</option>
+            <option>7:00pm</option>
+            <option>8:00pm</option>
+            <option>9:00pm</option>
+            <option>10:00pm</option>
+            <option>11:00pm</option>
+        </property_options>
+        <property_options name="CSG_END_TIME_OPTIONS">
+            <option>8:00am</option>
+            <option>9:00am</option>
+            <option>10:00am</option>
+            <option>11:00am</option>
+            <option>12:00pm</option>
+            <option>1:00pm</option>
+            <option>2:00pm</option>
+            <option>3:00pm</option>
+            <option>4:00pm</option>
+            <option>5:00pm</option>
+            <option>6:00pm</option>
+            <option>7:00pm</option>
+            <option>8:00pm</option>
+            <option>9:00pm</option>
+            <option>10:00pm</option>
+            <option>11:00pm</option>
+        </property_options>
+        <property_options name="CSG_BOUNDARY_START_TIME_OPTIONS">
+            <option></option>
+
+        </property_options>
+        <property_options name="CSG_BOUNDARY_END_TIME_OPTIONS">
+            <option></option>
+
+        </property_options>
+        <property_options name="CSG_SCHEDULE_TYPE_OPTIONS">
+            <option>Options</option>
+            <option>Holiday</option>
+            <option>Lecture</option>
+            <option>HW</option>
+            <option>Reference</option>
+            <option>Recitation</option>
+        </property_options>
+        <property_options name="CSG_SCHEDULE_DATE_OPTIONS">
+            <option></option>
+
+        </property_options>
+    </property_options_list>
+    
+</properties>
