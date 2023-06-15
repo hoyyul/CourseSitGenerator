@@ -1,4 +1,4 @@
-# CourseSitGenerator
+# CourseSiteGenerator
 This is course project for CSE219 in StonyBrook University. Got final score 98/100. Check more details at https://www3.cs.stonybrook.edu/~cse219/hw/HW1.html
 
 The program will let the user select how many pages their site should have and then what sections of content should appear on the site. In addition, we'll build a modular system for adding dynamically loaded content for things like the course office hours grid and schedule. The application will generate the necessary HTML and complementary JSON files for loading such dynamic data. Note that you will be provided with all JavaScript necessary.
